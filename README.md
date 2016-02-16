@@ -1,3 +1,3 @@
 # iDaireUx
-All about Dee
-A place where I store ideas, resources, or even share and discuss things with others.
+All about Dee is
+a place where I store ideas, resources, or even share and discuss things with others.
