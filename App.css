@@ -1,0 +1,189 @@
+body {
+  color: pink;
+  padding: 40px;
+  font-family: Proxima Nova;
+  text-align: center;
+  vertical-align: bottom;
+  /* display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(images/landscape/welcome-01.png) no-repeat center center
+    scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; */
+}
+.bodyCopy {
+  margin-top: 100px;
+}
+.landingbg {
+  background: url("images/landscape/welcome-03.png") top center no-repeat scroll;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 90%;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  /* line-height: 1.2;
+  line-height: 200px;
+  margin-top: -50px;
+  position: absolute;
+  text-align: center !important;
+  top: 200%;
+  width: 100%; */
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  display: inline-block;
+  /* line-height: 1.2;
+  line-height: 200px;
+  margin-top: -40px;
+  position: absolute;
+  text-align: center !important;
+  top: 350%;
+  width: 100%; */
+}
+h4 {
+  color: lavenderblush;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 14px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 120px;
+  height: 44px;
+  text-align: center !important;
+  /* left: 45%;
+  margin-top: -40px;
+  position: absolute;
+  top: 350%; */
+}
+.visitButton {
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  padding: 14px 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 120px;
+  height: 44px;
+  text-align: center !important;
+  margin-left: 20px;
+  /* left: 45%;
+  position: absolute;
+  top: 350%; */
+}
+.button-m {
+  margin-left: 30px;
+}
+form {
+  color: white;
+}
+input,
+select,
+textarea {
+  background: #666;
+  color: #ccc;
+  border-radius: 8px;
+  padding: 14px 20px;
+  border: 2px solid #ccc;
+  text-align: center !important;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+input::placeholder {
+  color: #fff;
+}
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  font-size: 1.1rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: absolute;
+  text-align: center !important;
+  top: 270%;
+  margin-left: 200px;
+  margin-right: 200px; */
+}
+.li-style {
+  display: "inline-flex";
+  font-family: "Garamond";
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1em;
+  white-space: pre-line;
+}
+
+ul.float {
+  overflow: auto;
+}
+ul.float > li {
+  float: right;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.centered > ul.float > li {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+ul.float.even > li {
+  width: 20%;
+}
+
+/* unvisited link */
+a:link {
+  color: lavender;
+}
+
+/* visited link */
+a:visited {
+  color: fuchsia;
+}
+
+/* mouse over link */
+a:hover {
+  color: teal;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
